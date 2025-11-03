@@ -1,0 +1,9 @@
+# Verified working versions in this environment (torch 2.9.1, CPU-only run
+# used throughout development -- Indian Pines is small enough that no GPU
+# is required, though one will be used automatically via CUDA if available).
+torch>=2.9.1
+numpy>=2.5.1
+scipy>=1.18.0
+scikit-learn>=1.7.1
+matplotlib>=3.10.5
+pytest>=8.0.0

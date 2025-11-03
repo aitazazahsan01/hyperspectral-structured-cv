@@ -1,0 +1,16 @@
+# Downloaded dataset -- large binary, trivially re-downloaded by src/data.py
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ablation results are regenerable by running experiments/run_budget_ablation.py;
+# keep the final verified one out of gitignore explicitly (see results/README
+# note) -- only intermediate/scratch runs are excluded.
+results/*.tmp.json
